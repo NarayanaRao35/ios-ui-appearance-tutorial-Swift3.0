@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_ios_ui_appearance_tutorial_Swift3_0_Example : NSObject
+@end
+@implementation PodsDummy_Pods_ios_ui_appearance_tutorial_Swift3_0_Example
+@end

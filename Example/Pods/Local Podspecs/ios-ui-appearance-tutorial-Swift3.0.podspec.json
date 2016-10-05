@@ -1,0 +1,22 @@
+{
+  "name": "ios-ui-appearance-tutorial-Swift3.0",
+  "version": "0.1.0",
+  "summary": "ios-ui-appearance-tutorial-Swift3.0 swift library",
+  "description": "TODO: ios-ui-appearance-tutorial-Swift3.0 swift library for configure it",
+  "homepage": "https://github.com/NarayanaRao35/ios-ui-appearance-tutorial-Swift3.0",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NarayanaRao35": "narayanarao35@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/NarayanaRao35/ios-ui-appearance-tutorial-Swift3.0.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ios-ui-appearance-tutorial-Swift3.0/Classes/**/*"
+}

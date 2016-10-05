@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'ios-ui-appearance-tutorial-Swift3.0_Example' do
+  pod 'ios-ui-appearance-tutorial-Swift3.0', :path => '../'
+
+  target 'ios-ui-appearance-tutorial-Swift3.0_Tests' do
+    
+  end
+end

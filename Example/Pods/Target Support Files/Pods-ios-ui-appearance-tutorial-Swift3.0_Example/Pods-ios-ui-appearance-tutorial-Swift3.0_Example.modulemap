@@ -1,0 +1,6 @@
+framework module Pods_ios_ui_appearance_tutorial_Swift3_0_Example {
+  umbrella header "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

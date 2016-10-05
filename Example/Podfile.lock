@@ -1,0 +1,14 @@
+PODS:
+  - ios-ui-appearance-tutorial-Swift3.0 (0.1.0)
+
+DEPENDENCIES:
+  - ios-ui-appearance-tutorial-Swift3.0 (from `../`)
+
+EXTERNAL SOURCES:
+  ios-ui-appearance-tutorial-Swift3.0:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ios-ui-appearance-tutorial-Swift3.0: ebfb5f51e52b9db548cbb826f502873955f35a88
+
+COCOAPODS: 0.39.0

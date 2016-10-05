@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		273180AF1DA4E29D00E5C11F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273180AE1DA4E29D00E5C11F /* Theme.swift */; };
+		27FDA62AA16A39E1115693204008D92E /* ios-ui-appearance-tutorial-Swift3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 534C25C5569E876227D682DAC6FB2F00 /* ios-ui-appearance-tutorial-Swift3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		44F8E12B6179A67475DBC1269EF40799 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		6C7F30B48E9DA22F7C9A423319C4CC30 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC78D1278AC1499EAE343724C3198325 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-dummy.m */; };
+		73635A7025A0336296BE08AA67BF25E9 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CBE7D92C69B36DEF3EC733DE3B25F0BD /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A42793179391BA7C280FB9EF13C2BFBF /* ios-ui-appearance-tutorial-Swift3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7145B72A8EF7AD4C7C7D5CFB84EB7F8A /* ios-ui-appearance-tutorial-Swift3.0-dummy.m */; };
+		C32995CCAD23470C970A2807F93C9210 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40FBA994661940AAD32EC9001CC33D2C /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE88A81418252E2527C60F017EFFE41D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		EF26E0C399F7644A86073882D373D1AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		FAAE2328E946D679835F4B11E2751288 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF71A37F63FBF8C5FEA79188A5B25CC2 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D790205D42F82469703CB49678B0514 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED157531E524BF90B45DECBF744B7E41;
+			remoteInfo = "ios-ui-appearance-tutorial-Swift3.0";
+		};
+		D1A39F6CDFCA4D18D747300EE463A9A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED157531E524BF90B45DECBF744B7E41;
+			remoteInfo = "ios-ui-appearance-tutorial-Swift3.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DA4034ECA0D5D0AC3812DD97CCC2639 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example.release.xcconfig"; sourceTree = "<group>"; };
+		210D8088C4368BF2F32AA4B369A48E83 /* Pods_ios_ui_appearance_tutorial_Swift3_0_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_ui_appearance_tutorial_Swift3_0_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26E51D597FD84818BE1704FA1689C63D /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		273180AE1DA4E29D00E5C11F /* Theme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E832C66954D54DA0453CB0EAEEA2E07 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		40FBA994661940AAD32EC9001CC33D2C /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-umbrella.h"; sourceTree = "<group>"; };
+		43BA6792DF827D161A774D0567A532D1 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		47D14E6C01F44D760A12BC52555AA65D /* ios-ui-appearance-tutorial-Swift3.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ios-ui-appearance-tutorial-Swift3.0.xcconfig"; sourceTree = "<group>"; };
+		534C25C5569E876227D682DAC6FB2F00 /* ios-ui-appearance-tutorial-Swift3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ios-ui-appearance-tutorial-Swift3.0-umbrella.h"; sourceTree = "<group>"; };
+		5EA354BD009D9CC5A4159F39A6DC4B9D /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6DA1C50767E9B3EA7D86247300673012 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7126274EE081F0952E7FA4ECE134003A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7145B72A8EF7AD4C7C7D5CFB84EB7F8A /* ios-ui-appearance-tutorial-Swift3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ios-ui-appearance-tutorial-Swift3.0-dummy.m"; sourceTree = "<group>"; };
+		8376864F139B33115E826171B869EB1D /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		887C8E5D90078010A62793A8D12DD827 /* ios_ui_appearance_tutorial_Swift3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ios_ui_appearance_tutorial_Swift3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7A43CC47D792A35548C41C4FF26C6A /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-resources.sh"; sourceTree = "<group>"; };
+		97ADED02FF9DFB1F8D68F4868502DCAD /* ios-ui-appearance-tutorial-Swift3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ios-ui-appearance-tutorial-Swift3.0-prefix.pch"; sourceTree = "<group>"; };
+		9C97AF4BC18B3799377073006FB7A054 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A048DE0081473A1A4AD71DC940EBC863 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B945F049A3C59C1B4D615681CDEA1704 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C84E67F3E1D497A49E4E0D3ACF927C5E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB60D08768583C99CE7411E1CF3C6CDD /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-resources.sh"; sourceTree = "<group>"; };
+		CBE7D92C69B36DEF3EC733DE3B25F0BD /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CC78D1278AC1499EAE343724C3198325 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-dummy.m"; sourceTree = "<group>"; };
+		ECE34896581073D825863682E07ED629 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB1271AD30D2799C64133C9431C757A /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests.modulemap"; sourceTree = "<group>"; };
+		EF71A37F63FBF8C5FEA79188A5B25CC2 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-dummy.m"; sourceTree = "<group>"; };
+		F786EB8A4C7B9968D126046EE1703416 /* Pods_ios_ui_appearance_tutorial_Swift3_0_Example_ios_ui_appearance_tutorial_Swift3_0_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_ui_appearance_tutorial_Swift3_0_Example_ios_ui_appearance_tutorial_Swift3_0_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE018E2AA06881747F1809C05B4C2FBA /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example.modulemap"; sourceTree = "<group>"; };
+		FF1683665123B459D763B3CF5DAB7DDF /* ios-ui-appearance-tutorial-Swift3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "ios-ui-appearance-tutorial-Swift3.0.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C4E34B195DE5BE9F61F44A9705686B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF26E0C399F7644A86073882D373D1AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715F6059ED2274D9DD4856B2F91FE184 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44F8E12B6179A67475DBC1269EF40799 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AC926DF57BAA44A5836989F2336AF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE88A81418252E2527C60F017EFFE41D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C1BC2A678473FFE17652A4D8D135528 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7126274EE081F0952E7FA4ECE134003A /* Info.plist */,
+				EEB1271AD30D2799C64133C9431C757A /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests.modulemap */,
+				26E51D597FD84818BE1704FA1689C63D /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-acknowledgements.markdown */,
+				A048DE0081473A1A4AD71DC940EBC863 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-acknowledgements.plist */,
+				CC78D1278AC1499EAE343724C3198325 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-dummy.m */,
+				9C97AF4BC18B3799377073006FB7A054 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-frameworks.sh */,
+				8C7A43CC47D792A35548C41C4FF26C6A /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-resources.sh */,
+				CBE7D92C69B36DEF3EC733DE3B25F0BD /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-umbrella.h */,
+				8376864F139B33115E826171B869EB1D /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests.debug.xcconfig */,
+				3E832C66954D54DA0453CB0EAEEA2E07 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests.release.xcconfig */,
+			);
+			name = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests";
+			path = "Target Support Files/Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests";
+			sourceTree = "<group>";
+		};
+		25F89D7577AF1710A7EE976A87D29BD2 /* ios-ui-appearance-tutorial-Swift3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				B0D7BB2147D4CA01D1C4E108DFB814E0 /* Classes */,
+			);
+			path = "ios-ui-appearance-tutorial-Swift3.0";
+			sourceTree = "<group>";
+		};
+		661E971E935B030E3552E2FAAA920646 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9408B01A2D54C99611EA036C6CA9B79A /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example */,
+				0C1BC2A678473FFE17652A4D8D135528 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		752651591AD9C260E0663A8F76056219 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				887C8E5D90078010A62793A8D12DD827 /* ios_ui_appearance_tutorial_Swift3_0.framework */,
+				210D8088C4368BF2F32AA4B369A48E83 /* Pods_ios_ui_appearance_tutorial_Swift3_0_Example.framework */,
+				F786EB8A4C7B9968D126046EE1703416 /* Pods_ios_ui_appearance_tutorial_Swift3_0_Example_ios_ui_appearance_tutorial_Swift3_0_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AEFC1679B322D7BB51AB29AB39A7310 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECE34896581073D825863682E07ED629 /* Info.plist */,
+				FF1683665123B459D763B3CF5DAB7DDF /* ios-ui-appearance-tutorial-Swift3.0.modulemap */,
+				47D14E6C01F44D760A12BC52555AA65D /* ios-ui-appearance-tutorial-Swift3.0.xcconfig */,
+				7145B72A8EF7AD4C7C7D5CFB84EB7F8A /* ios-ui-appearance-tutorial-Swift3.0-dummy.m */,
+				97ADED02FF9DFB1F8D68F4868502DCAD /* ios-ui-appearance-tutorial-Swift3.0-prefix.pch */,
+				534C25C5569E876227D682DAC6FB2F00 /* ios-ui-appearance-tutorial-Swift3.0-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ios-ui-appearance-tutorial-Swift3.0";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				ED0BB4DCDD7D13AE5D519A96676DACCE /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				752651591AD9C260E0663A8F76056219 /* Products */,
+				661E971E935B030E3552E2FAAA920646 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		907424D99A61C6D4FC1B4A273A211B59 /* ios-ui-appearance-tutorial-Swift3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				25F89D7577AF1710A7EE976A87D29BD2 /* ios-ui-appearance-tutorial-Swift3.0 */,
+				7AEFC1679B322D7BB51AB29AB39A7310 /* Support Files */,
+			);
+			name = "ios-ui-appearance-tutorial-Swift3.0";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9408B01A2D54C99611EA036C6CA9B79A /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C84E67F3E1D497A49E4E0D3ACF927C5E /* Info.plist */,
+				FE018E2AA06881747F1809C05B4C2FBA /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example.modulemap */,
+				5EA354BD009D9CC5A4159F39A6DC4B9D /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-acknowledgements.markdown */,
+				B945F049A3C59C1B4D615681CDEA1704 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-acknowledgements.plist */,
+				EF71A37F63FBF8C5FEA79188A5B25CC2 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-dummy.m */,
+				6DA1C50767E9B3EA7D86247300673012 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-frameworks.sh */,
+				CB60D08768583C99CE7411E1CF3C6CDD /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-resources.sh */,
+				40FBA994661940AAD32EC9001CC33D2C /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-umbrella.h */,
+				43BA6792DF827D161A774D0567A532D1 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example.debug.xcconfig */,
+				1DA4034ECA0D5D0AC3812DD97CCC2639 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example.release.xcconfig */,
+			);
+			name = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example";
+			path = "Target Support Files/Pods-ios-ui-appearance-tutorial-Swift3.0_Example";
+			sourceTree = "<group>";
+		};
+		B0D7BB2147D4CA01D1C4E108DFB814E0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				273180AE1DA4E29D00E5C11F /* Theme.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ED0BB4DCDD7D13AE5D519A96676DACCE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				907424D99A61C6D4FC1B4A273A211B59 /* ios-ui-appearance-tutorial-Swift3.0 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1198A5DE51AEF00D65E993384BC57C3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73635A7025A0336296BE08AA67BF25E9 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B2C7F6A93E162313FDF83A800B494FB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C32995CCAD23470C970A2807F93C9210 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7536F2972088944699DFC73A36AA7AC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FDA62AA16A39E1115693204008D92E /* ios-ui-appearance-tutorial-Swift3.0-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BC0C9B171D754C54C7B13281B1607A84 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 449B595A501644C31916257CF53B1E87 /* Build configuration list for PBXNativeTarget "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests" */;
+			buildPhases = (
+				75F9B89CDBBEF2CC871FFF715E0B7B2B /* Sources */,
+				F1AC926DF57BAA44A5836989F2336AF6 /* Frameworks */,
+				1198A5DE51AEF00D65E993384BC57C3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0373281C576BC1E6DEDF7FA60072F09 /* PBXTargetDependency */,
+			);
+			name = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests";
+			productName = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests";
+			productReference = F786EB8A4C7B9968D126046EE1703416 /* Pods_ios_ui_appearance_tutorial_Swift3_0_Example_ios_ui_appearance_tutorial_Swift3_0_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D94CBC1121CC46F2BAD349E030271A51 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B7FD16CF84B7C371CACB2C6E79C7594 /* Build configuration list for PBXNativeTarget "Pods-ios-ui-appearance-tutorial-Swift3.0_Example" */;
+			buildPhases = (
+				6BD37253B760CA92DDA71D562F0F9B53 /* Sources */,
+				715F6059ED2274D9DD4856B2F91FE184 /* Frameworks */,
+				2B2C7F6A93E162313FDF83A800B494FB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E2A517283E7334F52A8686C4258BD92 /* PBXTargetDependency */,
+			);
+			name = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example";
+			productName = "Pods-ios-ui-appearance-tutorial-Swift3.0_Example";
+			productReference = 210D8088C4368BF2F32AA4B369A48E83 /* Pods_ios_ui_appearance_tutorial_Swift3_0_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED157531E524BF90B45DECBF744B7E41 /* ios-ui-appearance-tutorial-Swift3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F754A5D2E2222AFACF13F9231265A5A /* Build configuration list for PBXNativeTarget "ios-ui-appearance-tutorial-Swift3.0" */;
+			buildPhases = (
+				7D7F01D6FB163A69A7AB5BC8902A5D24 /* Sources */,
+				6C4E34B195DE5BE9F61F44A9705686B8 /* Frameworks */,
+				7536F2972088944699DFC73A36AA7AC8 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ios-ui-appearance-tutorial-Swift3.0";
+			productName = "ios-ui-appearance-tutorial-Swift3.0";
+			productReference = 887C8E5D90078010A62793A8D12DD827 /* ios_ui_appearance_tutorial_Swift3_0.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 752651591AD9C260E0663A8F76056219 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED157531E524BF90B45DECBF744B7E41 /* ios-ui-appearance-tutorial-Swift3.0 */,
+				D94CBC1121CC46F2BAD349E030271A51 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example */,
+				BC0C9B171D754C54C7B13281B1607A84 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BD37253B760CA92DDA71D562F0F9B53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAAE2328E946D679835F4B11E2751288 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75F9B89CDBBEF2CC871FFF715E0B7B2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7F30B48E9DA22F7C9A423319C4CC30 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D7F01D6FB163A69A7AB5BC8902A5D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42793179391BA7C280FB9EF13C2BFBF /* ios-ui-appearance-tutorial-Swift3.0-dummy.m in Sources */,
+				273180AF1DA4E29D00E5C11F /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E2A517283E7334F52A8686C4258BD92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ios-ui-appearance-tutorial-Swift3.0";
+			target = ED157531E524BF90B45DECBF744B7E41 /* ios-ui-appearance-tutorial-Swift3.0 */;
+			targetProxy = 9D790205D42F82469703CB49678B0514 /* PBXContainerItemProxy */;
+		};
+		F0373281C576BC1E6DEDF7FA60072F09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ios-ui-appearance-tutorial-Swift3.0";
+			target = ED157531E524BF90B45DECBF744B7E41 /* ios-ui-appearance-tutorial-Swift3.0 */;
+			targetProxy = D1A39F6CDFCA4D18D747300EE463A9A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F451F0F2BD3CA7ED6186F8FAAFBB8AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43BA6792DF827D161A774D0567A532D1 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ios-ui-appearance-tutorial-Swift3.0_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ios-ui-appearance-tutorial-Swift3.0_Example/Pods-ios-ui-appearance-tutorial-Swift3.0_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ios_ui_appearance_tutorial_Swift3_0_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		137C6CDFE4A375F990AAFDA5186311C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D14E6C01F44D760A12BC52555AA65D /* ios-ui-appearance-tutorial-Swift3.0.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ios-ui-appearance-tutorial-Swift3.0/ios-ui-appearance-tutorial-Swift3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ios-ui-appearance-tutorial-Swift3.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ios-ui-appearance-tutorial-Swift3.0/ios-ui-appearance-tutorial-Swift3.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ios_ui_appearance_tutorial_Swift3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2CE7C6700D78175AE233EABCDEEE5110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47D14E6C01F44D760A12BC52555AA65D /* ios-ui-appearance-tutorial-Swift3.0.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ios-ui-appearance-tutorial-Swift3.0/ios-ui-appearance-tutorial-Swift3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ios-ui-appearance-tutorial-Swift3.0/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ios-ui-appearance-tutorial-Swift3.0/ios-ui-appearance-tutorial-Swift3.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ios_ui_appearance_tutorial_Swift3_0;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		8773592F4C943D12EC9D82C4BA919876 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA4034ECA0D5D0AC3812DD97CCC2639 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ios-ui-appearance-tutorial-Swift3.0_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ios-ui-appearance-tutorial-Swift3.0_Example/Pods-ios-ui-appearance-tutorial-Swift3.0_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ios_ui_appearance_tutorial_Swift3_0_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F0342C70B3D1D0B05B631D96E9CA4B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8376864F139B33115E826171B869EB1D /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests/Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ios_ui_appearance_tutorial_Swift3_0_Example_ios_ui_appearance_tutorial_Swift3_0_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BAF7B5F0A2D79A3B93B30FF9F1A50BA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E832C66954D54DA0453CB0EAEEA2E07 /* Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests/Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_ios_ui_appearance_tutorial_Swift3_0_Example_ios_ui_appearance_tutorial_Swift3_0_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B7FD16CF84B7C371CACB2C6E79C7594 /* Build configuration list for PBXNativeTarget "Pods-ios-ui-appearance-tutorial-Swift3.0_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F451F0F2BD3CA7ED6186F8FAAFBB8AA /* Debug */,
+				8773592F4C943D12EC9D82C4BA919876 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		449B595A501644C31916257CF53B1E87 /* Build configuration list for PBXNativeTarget "Pods-ios-ui-appearance-tutorial-Swift3.0_Example-ios-ui-appearance-tutorial-Swift3.0_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F0342C70B3D1D0B05B631D96E9CA4B6 /* Debug */,
+				BAF7B5F0A2D79A3B93B30FF9F1A50BA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F754A5D2E2222AFACF13F9231265A5A /* Build configuration list for PBXNativeTarget "ios-ui-appearance-tutorial-Swift3.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CE7C6700D78175AE233EABCDEEE5110 /* Debug */,
+				137C6CDFE4A375F990AAFDA5186311C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
